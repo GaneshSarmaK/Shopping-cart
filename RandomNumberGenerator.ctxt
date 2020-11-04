@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=RandomNumberGenerator
+comment0.text=\ \n\ \ RandomNumberGenerator\ class\:\n\ \ This\ class\ is\ responsible\ for\ adding\ products\ to\ cart\ and\ removing\ products\ from\ cart.\n\ \ It\ also\ does\ the\ checkout\ and\ display\ the\ total\ cost\ for\ the\ checked\ out\ products\ from\ the\ cart.\n\ \ @author\ Sarma\ K.\n\ \ @version\ 8th\ Sept\ 2018\n
+comment1.params=
+comment1.target=RandomNumberGenerator()
+comment1.text=\n\ A\ Constructor\ for\ the\ RandomNumberGenerator\ class\n
+comment2.params=min\ max
+comment2.target=RandomNumberGenerator(int,\ int)
+comment2.text=\n\ A\ \ Parameterized\ Constructor\ for\ the\ RandomNumberGenerator\ class\n\ @param\ min\ stores\ the\ minimum\ value\n\ @param\ max\ stores\ the\ maximum\ value\n
+comment3.params=min\ max
+comment3.target=int\ generate(int,\ int)
+comment3.text=\n\ A\ method\ that\ generates\ a\ random\ number\ between\ the\ ranges\ given\ to\ it\ by\ using\ Math.random()\ method\n\ @param\ min\ integer\ values\ that\ specifies\ the\ minimum\ value\ possible\n\ @param\ max\ integer\ values\ that\ specifies\ the\ maximum\ value\ possible\ \n\ @return\ (int)(Math.random()\ *\ range)\ +\ minimumValue\ a\ random\ number\ between\ min\ and\ max\ values\ \n
+comment4.params=minimumValue
+comment4.target=void\ setMinimumValue(int)
+comment4.text=\n\ A\ mutator\ method\ to\ set\ the\ Minimum\ value\n\ @param\ minimumValue\ an\ integer\ that\ sets\ the\ minimum\ value\ of\ the\ random\ number\ \n
+comment5.params=maximumValue
+comment5.target=void\ setMaximumValue(int)
+comment5.text=\n\ A\ mutator\ method\ to\ set\ the\ Maximum\ value\n\ @param\ maximumValue\ an\ integer\ that\ sets\ the\ maximum\ value\ of\ the\ random\ number\n
+numComments=6

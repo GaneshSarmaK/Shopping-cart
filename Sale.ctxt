@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Sale
+comment1.params=
+comment1.target=Sale()
+comment1.text=\n\ Constructor\ for\ Sale\ class.\n\ Instaniates\ the\ objects\ of\ ProductList,\ SaleTransaction\ and\ RandomNumberGenerator\ classes.\n
+comment2.params=
+comment2.target=void\ displayProdList()
+comment2.text=\n\ A\ method\ to\ display\ the\ products\ in\ the\ ProductList\ class\n
+comment3.params=
+comment3.target=void\ start()
+comment3.text=\n\ The\ main\ method\ that\ displays\ options\ to\ the\ user.\n\ This\ method\ uses\ the\ methods\ of\ the\ SaleTransaction\ and\ ProductList\ classes\ and\ interacts\ with\ each\ other's\ methods\n\ it\ has\ several\ options\ that\ the\ user\ can\ choose\ from.\n
+comment4.params=
+comment4.target=void\ addToCart()
+comment4.text=\n\ This\ method\ is\ the\ option\ 2\ from\ the\ user\ i.e\ add\ products\ to\ cart\ in\ SaleTransaction\ class\ .\n\ It\ checks\ if\ there\ are\ any\ products\ already\ and\ displays\ error\ is\ there\ is\ no\ space\n\ If\ there\ is\ space\ it\ add\ the\ product\ and\ updates\ the\ total\ cost.\n
+comment5.params=qty\ minqty
+comment5.target=void\ check(int,\ int)
+comment5.text=\n\ This\ method\ is\ the\ option\ 1\ from\ the\ user\ i.e\ add\ products\ to\ inventory\ in\ ProductList\ class\ .\n\ It\ checks\ if\ there\ is\ any\ space\ for\ products\ to\ be\ registered.\n\ If\ there\ is\ space\ it\ add\ the\ product\ to\ the\ inventory.\n\ It\ also\ performs\ all\ the\ validations\ on\ the\ name\ description\ and\ price\ values\ and\ generates\ randomnumbers\ \n\ It\ creates\ a\ product\ object\ from\ the\ Product\ class\ by\ using\ a\ non-default\ constructor\ of\ the\ Product\ class\n\ It\ adds\ that\ product\ object\ to\ the\ inventory\ in\ the\ ProductList\ class\n\ @param\ qty\ a\ random\ number\ between\ 0\ and\ 10\ which\ says\ the\ available\ quantity\ of\ the\ product\n\ @param\ minqty\ a\ random\ number\ between\ 1\ and\ 5\ that\ says\ about\ the\ minimum\ quantity\ to\ be\ ordered\ when\ adding\ to\ cart\ and\ checking\ out\ \n
+comment6.params=
+comment6.target=void\ menu()
+comment6.text=\n\ A\ method\ that\ displays\ the\ menu\ when\ invoked\ to\ help\ user\ \n
+comment7.params=
+comment7.target=java.lang.String\ nameValid()
+comment7.text=\n\ A\ method\ that\ validates\ the\ name\ of\ the\ product\ that\ is\ entered\ after\ choosing\ option\ 1\ i.e.\ adding\ to\ inventory\n\ Checks\ if\ the\ name\ length\ is\ within\ limits\n\ Checks\ if\ the\ name\ doesn't\ already\ exist.\n
+comment8.params=
+comment8.target=void\ help()
+numComments=9

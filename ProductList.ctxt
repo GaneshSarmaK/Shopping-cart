@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ProductList
+comment1.params=
+comment1.target=ProductList()
+comment1.text=\n\ Constructor\ for\ the\ class\ ProductList\n\ instantiates\ the\ array\ listOfProducts\n
+comment2.params=
+comment2.target=void\ displayProductList()
+comment2.text=\n\ A\ display\ method\ that\ displays\ all\ the\ products\ registered\ using\ option\ 1\ from\ Sale\ class\n
+comment3.params=
+comment3.target=int\ check1()
+comment3.text=\n\ A\ method\ to\ check\ if\ the\ listOfProducts\ is\ full\ or\ not.\n\ It\ also\ finds\ the\ index\ value\ where\ we\ can\ add\ a\ new\ product\n\ @return\ i\ an\ integer\ that\ sends\ the\ index\ value\ when\ listOfProducts\ is\ empty\n
+comment4.params=name
+comment4.target=boolean\ nameCheck(java.lang.String)
+comment4.text=\n\ A\ method\ to\ check\ if\ the\ entered\ name\ for\ the\ product\ (name\ being\ case\ insensitive)\ already\ exists\ .\n\ @return\ flag\ a\ boolean\ flag\ that\ tells\ us\ if\ the\ name\ already\ exists\ or\ not\n
+comment5.params=i
+comment5.target=boolean\ checkProductList(int)
+comment5.text=\n\ A\ method\ to\ check\ if\ the\ chosen\ product\ exists\ .\n\ @param\ i\ an\ integer\ index\ passed\ from\ Sale\ class\n\ @return\ flag\ a\ boolean\ that\ says\ if\ the\ product\ with\ the\ index\ choice\ exists\ or\ not.\n
+comment6.params=choice
+comment6.target=Product\ getProduct(int)
+comment6.text=\n\ A\ method\ to\ get\ the\ chosen\ product\ to\ send\ it\ to\ SaleTransaction\ .\n\ @param\ choice\ an\ integer\ choice\ for\ index\ \n\ @return\ listOfProducts[choice-1]\ a\ n\ object\ of\ Product\ class\n
+comment7.params=name\ desc\ price\ qty\ minqty\ index
+comment7.target=void\ addProduct(java.lang.String,\ java.lang.String,\ double,\ int,\ int,\ int)
+comment7.text=\n\ A\ method\ to\ add\ a\ Product\ to\ the\ listOfProducts\ i.e.\ registering\ a\ product\ option\ 1\n\ @param\ name\ name\ of\ the\ Product\ object\n\ @param\ desc\ description\ of\ the\ Product\ object\n\ @param\ price\ price\ of\ the\ Product\ object\ \n\ @param\ qty\ quantity\ available\ of\ the\ Product\ object\n\ @param\ minqty\ minimum\ quantity\ of\ the\ Product\ object\ \n\ @param\ index\ an\ integer\ index\ to\ store\ the\ product\ in\ object\ of\ ProductList\ \n
+numComments=8
